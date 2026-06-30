@@ -1,0 +1,23 @@
+title: AI DevOps 작업 로그
+description: Claude AI가 자동으로 구현하고 배포한 프로젝트 기록
+baseurl: ""
+url: "https://jwko76.github.io"
+theme: minima
+
+# 포스트 기본 설정
+permalink: /:year/:month/:day/:title/
+
+# 플러그인
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# 미니마 테마 설정
+minima:
+  skin: auto
+  social_links:
+    - { platform: github, user_url: "https://github.com/jwko76" }
+
+# 빌드 설정
+markdown: kramdown
+highlighter: rouge
